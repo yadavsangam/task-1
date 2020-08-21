@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.hdqwalls.com/wallpapers/4k-money-heist-season-4-netflix-aw.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#overlay{
+    width: 43%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.424);
+}
+#overlay #nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    width: 100%;
+    height: 10%;
+    
+}
+
+#nav h4{
+    font-size: 10px;
+    
+}
+
+#content{
+    position: absolute;
+    top: 50%;
+      left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+#content h2{
+font-size: 50px;
+
+}
+
+#content h4{
+    width: 50%;
+    height: 100%;
+    font-weight: 600;
+    word-spacing: 2px;
+    font-size: 8px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.541);
+}
+
+#content h5{
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+
+
+#right{
+    width: 57%;
+    height: 100%;
+   /* background-color: rgba(255, 255, 0, 0.205);*/
+}
+
+#right .ri-menu-3-fill{
+    position:absolute;
+    top: 4%;
+      left: 95%;
+    transform: translate(-50%,-50%);
+    
+}
+
+#right .ri-play-circle-fill{
+    position:absolute;
+    top: 90%;
+      left: 95%;
+    transform: translate(-50%,-50%);
+}
+
+#slide{
+      margin-top: 300px;
+    margin-left: 650px;
+    font-size: 100px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.383);
+    
+}
+
+#slide1{
+    
+    margin-top: 10px;
+    margin-left: 650px;
+    font-size: 100px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.383);
+    
+}
+
+#date{
+    margin-top: 10px;
+  margin-left: 650px;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+
+#scroll{
+    position:absolute;
+    top: 85%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    font-size: 10px;
+}
+
+#linkbar{
+    position:absolute;
+    top: 6%;
+    left: 6%;
+    transform: translate(-50%,-50%);
+    color: tomato;
+}
+
+#down{
+    position:absolute;
+    top: 87%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    font-size: 10px;
+    
+}
